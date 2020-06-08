@@ -11,7 +11,7 @@ int main()
     int N;
     cin >> N;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    regex e(".+@gmail\\.com$");
+    regex e(".+@gmail.com");
     vector<string> names;
     for (int N_itr = 0; N_itr < N; N_itr++) {
         string firstNameEmailID_temp;
